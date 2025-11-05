@@ -12,46 +12,7 @@ Este repositorio contiene una colección completa de ejemplos educativos de Pyth
 
 ## 📋 Contenido
 
-## 🎯 **PARTE 1: Listas y Arrays**
-
-### 🐍 Listas Python Nativas
-- **`code/listas_basicas.py`** - Ejemplos fundamentales de listas Python
-  - Búsqueda de elementos (`in`, `index()`, `count()`)
-  - Agregado de elementos (`append()`, `insert()`, `extend()`, `+`)
-  - Eliminación de elementos (`remove()`, `pop()`, `del`, `clear()`)
-  - Listas bidimensionales (listas de listas)
-  - Comprensiones de lista y filtrado avanzado
-
-### 🔢 Arrays NumPy
-- **`code/numpy_arrays_1d.py`** - Arrays unidimensionales
-  - Creación (`array()`, `arange()`, `linspace()`, `zeros()`, `ones()`)
-  - Búsqueda (`where()`, `argmax()`, `argmin()`, condiciones booleanas)
-  - Agregado (`append()`, `insert()`, `concatenate()`)
-  - Eliminación (`delete()`, filtrado con máscaras)
-  - Operaciones estadísticas y matemáticas
-
-- **`code/numpy_arrays_2d.py`** - Arrays bidimensionales (matrices)
-  - Creación de matrices
-  - Acceso y modificación por índices
-  - Agregado/eliminación de filas y columnas
-  - Operaciones matriciales (`dot()`, `transpose()`)
-  - Estadísticas por ejes
-
-### 🔗 Unión de Estructuras
-- **`code/union_listas.py`** - Unión de múltiples listas Python
-  - Concatenación básica (`+`, `extend()`, `+=`)
-  - Funciones avanzadas (`itertools.chain()`, `reduce()`)
-  - Intercalado de elementos
-  - Eliminación de duplicados
-  - Preservación del orden
-
-- **`code/union_arrays_numpy.py`** - Unión de arrays NumPy
-  - Concatenación (`concatenate()`, `r_`, `c_`)
-  - Apilamiento (`vstack()`, `hstack()`, `dstack()`, `stack()`)
-  - Manejo de diferentes dimensiones
-  - Broadcasting y repetición (`tile()`, `repeat()`)
-
-## 🎯 **PARTE 2: Tipos de Datos Básicos**
+## 🎯 **PARTE 1: Tipos de Datos Básicos**
 
 ### 🔢 Tipos Numéricos
 - **`code/tipos_numericos.py`** - Enteros, flotantes y complejos
@@ -127,6 +88,45 @@ Este repositorio contiene una colección completa de ejemplos educativos de Pyth
   - Endpoint básico de demostración
   - Configurado para desarrollo con recarga automática
   - Accesible en puerto 5000
+
+## 🎯 **PARTE 2: Listas y Arrays**
+
+### 🐍 Listas Python Nativas
+- **`code/listas_basicas.py`** - Ejemplos fundamentales de listas Python
+  - Búsqueda de elementos (`in`, `index()`, `count()`)
+  - Agregado de elementos (`append()`, `insert()`, `extend()`, `+`)
+  - Eliminación de elementos (`remove()`, `pop()`, `del`, `clear()`)
+  - Listas bidimensionales (listas de listas)
+  - Comprensiones de lista y filtrado avanzado
+
+### 🔢 Arrays NumPy
+- **`code/numpy_arrays_1d.py`** - Arrays unidimensionales
+  - Creación (`array()`, `arange()`, `linspace()`, `zeros()`, `ones()`)
+  - Búsqueda (`where()`, `argmax()`, `argmin()`, condiciones booleanas)
+  - Agregado (`append()`, `insert()`, `concatenate()`)
+  - Eliminación (`delete()`, filtrado con máscaras)
+  - Operaciones estadísticas y matemáticas
+
+- **`code/numpy_arrays_2d.py`** - Arrays bidimensionales (matrices)
+  - Creación de matrices
+  - Acceso y modificación por índices
+  - Agregado/eliminación de filas y columnas
+  - Operaciones matriciales (`dot()`, `transpose()`)
+  - Estadísticas por ejes
+
+### 🔗 Unión de Estructuras
+- **`code/union_listas.py`** - Unión de múltiples listas Python
+  - Concatenación básica (`+`, `extend()`, `+=`)
+  - Funciones avanzadas (`itertools.chain()`, `reduce()`)
+  - Intercalado de elementos
+  - Eliminación de duplicados
+  - Preservación del orden
+
+- **`code/union_arrays_numpy.py`** - Unión de arrays NumPy
+  - Concatenación (`concatenate()`, `r_`, `c_`)
+  - Apilamiento (`vstack()`, `hstack()`, `dstack()`, `stack()`)
+  - Manejo de diferentes dimensiones
+  - Broadcasting y repetición (`tile()`, `repeat()`)
 
 ## 🛠️ Instalación y Uso
 
